@@ -1,18 +1,18 @@
-body{
+body {
     padding: 0;
     margin: 0;
     height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(/assets/img/background.jpg);
-    background-size:cover;
+    background-image: url("assets/img/background.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body::before{
-    content:'';
-    background-color: rgb(0,0,0, .5);
+body::before {
+    content: '';
+    background-color: rgb(0, 0, 0, .5);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -21,18 +21,18 @@ body::before{
     right: 0;
 }
 
-.logo img{
+.logo img {
     height: 45px;
     width: 167px;
 }
 
-.header{
+.header {
     padding: 20px 50px;
     position: relative;
     z-index: 10;
 }
 
-.login_body{
+.login_body {
     padding: 60px;
     z-index: 90;
     position:relative ;
@@ -44,20 +44,19 @@ body::before{
     border-radius: 10px;
     box-sizing: border-box;
     transform:translateX(-50%);
-
 }
 
-.login_body h2{
+.login_body h2 {
     font-size: 32px;
     color: #fff;
     margin-top: 0;
 }
 
-.login_body input{
+.login_body input {
     height: 50px;
     width: 100%;
-    color:#fff;
-    background-color:#333;
+    color: #fff;
+    background-color: #333;
     border: none;
     border-radius: 5px;
     padding-left: 15px;
@@ -65,18 +64,18 @@ body::before{
     outline: none;
 }
 
-.login_body input:hover{
+.login_body input:hover {
     background-color: #444;
 }
 
-.input_box{
+.input_box {
     margin-bottom: 25px;
 }
 
-.login_body button{
+.login_body button {
     height: 50px;
     width: 100%;
-    color:#fff;
+    color: #fff;
     background-color: #e50914;
     border-radius: 3px;
     font-weight: bold;
@@ -85,41 +84,40 @@ body::before{
     margin-bottom: 10px;
 }
 
-.login_body button:hover{
+.login_body button:hover {
     background-color: #fc1722;
     cursor: pointer;
 }
 
-.support{
+.support {
     display: flex;
-    color:#b3b3b3;
+    color: #b3b3b3;
     justify-content: space-between;
     font-size: 12px;
     margin-bottom: 5px;
 }
 
-
-.support input{
+.support input {
     width: 15px;
     height: 15px;
 }
 
-.remember{
+.remember {
     display: flex;
     align-items: center;
 }
 
-.remember span{
+.remember span {
     margin-right: 25px;
     height: 25px;
 }
 
-.help a{
+.help a {
     text-decoration: none;
-    color:#737373;
+    color: #737373;
 }
 
-.help a:hover{
+.help a:hover {
     text-decoration: underline;
 }
 
@@ -127,46 +125,44 @@ body::before{
     display: flex;
     align-items:center ;
     width: 100%;
-    color:#737373;
+    color: #737373;
 }
 
-.login_facebook span{
+.login_facebook span {
     margin-right: 5px;
     font-size: 13px;
 }
 
-.login_facebook span a{
+.login_facebook span a {
     text-decoration: none;
     color: #737373;
-    
 }
 
-.sign_up{
+.sign_up {
     color: #737373;
     font-size: 16px;
 }
 
-.sign_up a{
+.sign_up a {
     color: #fff;
-    font-size:16px ;
+    font-size: 16px;
     text-decoration: none;
 }
 
-.sign_up a:hover{
+.sign_up a:hover {
     text-decoration: underline;
 }
 
-.terms{
+.terms {
     color: #737373;
     font-size: 13px;
 }
 
-.terms a{
+.terms a {
     text-decoration: none;
-    color:#0071eb ;
+    color: #0071eb;
 }
 
-.terms a:hover{
+.terms a:hover {
     text-decoration: underline;
 }
-
